@@ -56,9 +56,7 @@ def get_answer(query):
   return  answer
 
 
-def handleuser_input(user_question):
-  response = st.session_state.conversation({'question': user_question})
-  st.write(response)
+
 
 st.title("Question Search App")
 search_query = st.text_input("Enter your question:")
